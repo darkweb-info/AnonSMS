@@ -18,11 +18,11 @@ banner = """
 
 print(banner)
 
-Number = input(" Phone Number: ")
+Number = input(" +37494427720 ")
 
 Message = input("\n Message: ")
 
-arlk = Message[0:70]
+arlk = Message[0:5]
 
 drlm = input("\n >>> Send a message? [Y/N]: ")
 
@@ -39,4 +39,5 @@ elif drlm == "n" or drlm == "N":
     quit()
 else:
     print("\n Incorrect operation.")
+
 
